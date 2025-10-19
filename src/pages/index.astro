@@ -1,11 +1,26 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Juanjo Dev - Desarrollador Web">
+    <h1 style="text-align:center;">👋 Hola, soy <strong>Juanjo Dev</strong></h1>
+    <p style="text-align:center;">
+        Desarrollador Web especializado en la creación de aplicaciones modernas
+        y eficientes.
+    </p>
+
+    <section>
+        <h2>🎓 Estudios</h2>
+        <ul>
+            <li>Desarrollo de Aplicaciones Web (DAW)</li>
+            <li>HTML, CSS, JavaScript (ES6+)</li>
+            <li>Frameworks: React, Vue, Astro, Node.js, Express</li>
+            <li>Bases de datos: MySQL, MongoDB</li>
+            <li>Control de versiones con Git y GitHub</li>
+        </ul>
+    </section>
+
+    <p style="text-align:center; margin-top:2rem;">
+        👉 Mira mis <a href="/proyectos">proyectos</a>
+    </p>
 </Layout>

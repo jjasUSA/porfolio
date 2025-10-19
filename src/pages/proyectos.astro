@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProyectoCard from "../components/ProyectoCard.astro";
+
+const proyectos = [
+    {
+        titulo: "Gestor de Tareas",
+        descripcion:
+            "Aplicación web para organizar tareas con React y LocalStorage.",
+        enlace: "https://github.com/juanjoDev/gestor-tareas",
+    },
+    {
+        titulo: "Portafolio Personal",
+        descripcion: "Portfolio hecho en Astro y desplegado en Vercel.",
+        enlace: "https://juanjo-dev.vercel.app",
+    },
+    {
+        titulo: "Blog Tech",
+        descripcion: "Blog dinámico creado con Node.js y MongoDB.",
+        enlace: "https://github.com/juanjoDev/blog-tech",
+    },
+    {
+        titulo: "App del Clima",
+        descripcion: "Consulta del tiempo con API externa, hecho con Vue.js.",
+        enlace: "https://github.com/juanjoDev/app-clima",
+    },
+    {
+        titulo: "Tienda Online",
+        descripcion:
+            "E-commerce funcional con carrito y pasarela de pagos, hecho con React y Express.",
+        enlace: "https://github.com/juanjoDev/tienda-online",
+    },
+];
+---
+
+<Layout title="Proyectos | Juanjo Dev">
+    <h1>💻 Mis Proyectos</h1>
+    {proyectos.map((proyecto) => <ProyectoCard {...proyecto} />)}
+</Layout>
