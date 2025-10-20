@@ -62,3 +62,5 @@ En esta versión inicial:
 Este proyecto es **el inicio de mi camino hacia un portfolio profesional**.  
 Aunque actualmente sea una versión sencilla, representa un paso importante hacia mi objetivo: **dominar la construcción de un sitio completo, moderno y optimizado**, comenzando desde lo esencial y creciendo paso a paso.
 
+## Gracias, Gracias
+
